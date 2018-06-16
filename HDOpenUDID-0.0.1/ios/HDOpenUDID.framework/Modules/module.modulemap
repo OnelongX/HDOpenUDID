@@ -1,6 +1,0 @@
-framework module HDOpenUDID {
-  umbrella header "HDOpenUDID.h"
-
-  export *
-  module * { export * }
-}
