@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "HDOpenUDID"
   s.version      = "0.0.1"
-  s.summary      = "A short description of HDOpenUDID."
+  s.summary      = "HDOpenUDID Framework"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-HDOpenUDID
+                    HDOpenUDID
                    DESC
 
-  s.homepage     = "http://ways2u.com"
+  s.homepage     = "https://github.com/OnelongX/HDOpenUDID"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ HDOpenUDID
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://git.huodao.hk/onelong/HDOpenUDID.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/OnelongX/HDOpenUDID.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -130,7 +130,7 @@ HDOpenUDID
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+ s.requires_arc = false
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
