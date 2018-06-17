@@ -334,6 +334,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DZ7M4562PX;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -346,6 +347,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huodao.ios.HDOpenUDID;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -359,6 +362,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = DZ7M4562PX;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -371,6 +375,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huodao.ios.HDOpenUDID;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
